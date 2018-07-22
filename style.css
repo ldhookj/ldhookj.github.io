@@ -7,7 +7,7 @@ div {
 }
 
 img {
-    width: 33%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -22,16 +22,16 @@ img {
 }
 
 .campaign {
-    padding: 30px;
+    padding: 25px;
 }
 
-@media screen and (max-width: 600px) {
+//@media screen and (max-width: 600px) {
     .char {
         width: 100%;
     }
 }
 
-@media screen and (max-width: 600px) {
+//@media screen and (max-width: 600px) {
     .character {
         width: 100%;
     }
