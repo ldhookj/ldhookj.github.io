@@ -11,9 +11,23 @@ img {
     height: auto;
 }
 
+.stat {
+    float: left;
+    width: 20%;
+}
+
+.story {
+    float: left;
+    width: 55%;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
 .char {
     float: left;
-    width: 33.33%;
+    width: 20%;
+    padding: 10px 15px;
+    margin-top: 7px;
 }
 
 .character {
@@ -25,14 +39,20 @@ img {
     padding: 30px;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width:800px) {
+    .story {
+        width: 80%;
+        padding: 0;
+    }
     .char {
         width: 100%;
     }
 }
 
-@media screen and (max-width: 600px) {
-    .character {
+@media only screen and (max-width:500px) {
+    .stat,
+    .story,
+    .char {
         width: 100%;
     }
 }
@@ -57,13 +77,4 @@ li a {
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
-}
-
-li a:hover {
-    background-color: #111;
-}
-
-li a:active {
-    background-color: #4CAF50;
-    color: white;
 }

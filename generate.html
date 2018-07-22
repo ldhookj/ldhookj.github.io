@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
             Roll for initiative!
         </title>
@@ -18,64 +18,66 @@
                 <li><a href="generate.html">Roll Initiative!</a></li>
             </ul>
         </nav>
-        <div style="text-align: center;">
-            <h1 style="text-align: center;">Press below to see which order our players are going to play!</h1>
-            <BR>
-            <BR>
-            <BR>
-            <BR>
-            <button onclick="randgenerator()">
-                <img src="img/d20.png" alt="Roll Initiative!" width="48" height="48" />
-            </button>
-            <BR>
-            <BR>
-            <h3>The battle order goes by who rolled the highest to the lowest.  Add in the DM's rolls for the enemy and now you have the order in which everyone fights!</h3>
-            <BR>
-            <BR>
-            <label>
-                Laszlo rolled:
-            </label>
-            <label id="randomnumber1">
-            </label>
-            <BR>
-            <BR>
-            <label>
-                Loopy rolled:
-            </label>
-            <label id="randomnumber2">
-            </label>
-            <BR>
-            <BR>
-            <label>
-                Mell rolled:
-            </label>
-            <label id="randomnumber3">
-            </label>
-            <BR>
-            <BR>
-            <label>
-                Zigzag rolled:
-            </label>
-            <label id="randomnumber4">
-            </label>
-            <BR>
-            <BR>
-            <script>
-            function randgenerator() {
-                var randomnumber1 = 1;
-                randomnumber1 = Math.floor(Math.random() * 20) + 1;
-                document.getElementById("randomnumber1").innerHTML = randomnumber1;
-                var randomnumber2 = 1;
-                randomnumber2 = Math.floor(Math.random() * 20) + 1;
-                document.getElementById("randomnumber2").innerHTML = randomnumber2;
-                var randomnumber3 = 1;
-                randomnumber3 = Math.floor(Math.random() * 20) + 1;
-                document.getElementById("randomnumber3").innerHTML = randomnumber3;
-                var randomnumber4 = 1;
-                randomnumber4 = Math.floor(Math.random() * 20) + 1;
-                document.getElementById("randomnumber4").innerHTML = randomnumber4;
-            }
-            </script>
+        <div style="overflow:auto">
+            <div style="text-align: center;">
+                <h2 style="text-align: center;">Press below to see which order our players are going to play!</h2>
+                <BR>
+                <BR>
+                <BR>
+                <BR>
+                <button onclick="randgenerator()">
+                    <img src="img/d20.png" alt="Roll Initiative!" width="48" height="48" />
+                </button>
+                <BR>
+                <BR>
+                <h3>The battle order goes by who rolled the highest to the lowest.  Add in the DM's rolls for the enemy and now you have the order in which everyone fights!</h3>
+                <BR>
+                <BR>
+                <label>
+                    Laszlo rolled:
+                </label>
+                <label id="randomnumber1">
+                </label>
+                <BR>
+                <BR>
+                <label>
+                    Loopy rolled:
+                </label>
+                <label id="randomnumber2">
+                </label>
+                <BR>
+                <BR>
+                <label>
+                    Mell rolled:
+                </label>
+                <label id="randomnumber3">
+                </label>
+                <BR>
+                <BR>
+                <label>
+                    Zigzag rolled:
+                </label>
+                <label id="randomnumber4">
+                </label>
+                <BR>
+                <BR>
+                <script>
+                function randgenerator() {
+                    var randomnumber1 = 1;
+                    randomnumber1 = Math.floor(Math.random() * 20) + 1;
+                    document.getElementById("randomnumber1").innerHTML = randomnumber1;
+                    var randomnumber2 = 1;
+                    randomnumber2 = Math.floor(Math.random() * 20) + 1;
+                    document.getElementById("randomnumber2").innerHTML = randomnumber2;
+                    var randomnumber3 = 1;
+                    randomnumber3 = Math.floor(Math.random() * 20) + 1;
+                    document.getElementById("randomnumber3").innerHTML = randomnumber3;
+                    var randomnumber4 = 1;
+                    randomnumber4 = Math.floor(Math.random() * 20) + 1;
+                    document.getElementById("randomnumber4").innerHTML = randomnumber4;
+                }
+                </script>
+            </div>
         </div>
     </body>
 
