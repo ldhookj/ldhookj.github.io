@@ -43,8 +43,8 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    left: 175px;
-    right: 175px;
+    left: 75px;
+    right: 75px;
 }
 
 li {
@@ -55,7 +55,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 10px 10px;
+    padding: 5px 5px;
     text-decoration: none;
 }
 
