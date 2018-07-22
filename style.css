@@ -22,16 +22,16 @@ img {
 }
 
 .campaign {
-    padding: 25px;
+    padding: 30px;
 }
 
-//@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .char {
         width: 100%;
     }
 }
 
-//@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .character {
         width: 100%;
     }
@@ -43,8 +43,8 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    left: 75px;
-    right: 75px;
+    left: 175px;
+    right: 175px;
 }
 
 li {
@@ -55,7 +55,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 5px 5px;
+    padding: 10px 10px;
     text-decoration: none;
 }
 
