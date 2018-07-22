@@ -1,5 +1,4 @@
 /*main css formatting*/
-
 body {
     background-color: #aaaaaa;
 }
@@ -13,18 +12,15 @@ img {
     height: auto;
 }
 
-
-
 /*layouts for the character sheet */
-
 .stat {
     float: left;
-    width: 20%;
+    width: 37%;
 }
 
 .story {
     float: left;
-    width: 55%;
+    width: 37%;
     padding: 0 20px;
     overflow: hidden;
 }
@@ -32,60 +28,48 @@ img {
 .char {
     float: left;
     width: 20%;
-    padding: 10px 15px;
-    margin-top: 7px;
 }
 
-
-
 /*layout for character page*/
-
 .character {
     float: left;
     width: 25%;
 }
 
-
-
 /*layout for campaign page*/
-
 .campaign {
     padding: 30px;
 }
 
-
-
 /*additions for responsive layout for tablets*/
-
 @media only screen and (max-width:800px) {
     .stat {
         width: 47%;
         padding: 0;
     }
+
     .story {
         width: 47%;
     }
+
     .char {
-        width: 75%;
+        width: 80%;
+        padding: 0;
     }
+
 }
 
-
-
 /*additions for responsive layout for phones*/
-
 @media only screen and (max-width:500px) {
     .stat,
     .story,
     .char {
         width: 100%;
     }
+
 }
 
-
-
 /*nav bar formatting*/
-
 ul {
     list-style-type: none;
     margin: auto;
@@ -107,8 +91,6 @@ li a {
     padding: 10px 10px;
     text-decoration: none;
 }
-
-
 
 nav a:hover {
     background-color: #ddd;
