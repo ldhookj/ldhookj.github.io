@@ -1,0 +1,69 @@
+body {
+    background-color: #aaaaaa;
+}
+
+div {
+    background-color: white;
+}
+
+img {
+    width: 33%;
+    height: auto;
+}
+
+.char {
+    float: left;
+    width: 33.33%;
+}
+
+.character {
+    float: left;
+    width: 25%;
+}
+
+.campaign {
+    padding: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .char {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .character {
+        width: 100%;
+    }
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    left: 75px;
+    right: 75px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+li a:active {
+    background-color: #4CAF50;
+    color: white;
+}
