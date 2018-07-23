@@ -36,6 +36,13 @@ img {
     width: 25%;
 }
 
+/*layout for contact page*/
+.contact {
+    text-align: center;
+    margin: auto;
+    width: 25%;
+}
+
 /*layout for campaign page*/
 .campaign {
     padding: 30px;
