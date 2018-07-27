@@ -64,6 +64,35 @@
                 <label id="randomnumber4"></label>
                 <br>
                 <br>
+                <h3>
+                Look below to see what the random numbers from all of the different type of dice in Dungeons and Dragons rolled:
+            </h3>
+                <br>
+                <br>
+                <label>Roll a D4:</label>
+                <label id="randomnumber5"></label>
+                <br>
+                <br>
+                <label>Roll a D6:</label>
+                <label id="randomnumber6"></label>
+                <br>
+                <br>
+                <label>Roll a D8:</label>
+                <label id="randomnumber7"></label>
+                <br>
+                <br>
+                <label>Roll a D10:</label>
+                <label id="randomnumber8"></label>
+                <br>
+                <br>
+                <label>Roll a D20:</label>
+                <label id="randomnumber9"></label>
+                <br>
+                <br>
+                <label>Roll a D100:</label>
+                <label id="randomnumber10"></label>
+                <br>
+                <br>
                 <!--code for random rolls-->
                 <script>
                 function randgenerator() {
@@ -79,6 +108,24 @@
                     var randomnumber4 = 1;
                     randomnumber4 = Math.floor(Math.random() * 20) + 1;
                     document.getElementById("randomnumber4").innerHTML = randomnumber4;
+                    var randomnumber5 = 1;
+                    randomnumber5 = Math.floor(Math.random() * 4) + 1;
+                    document.getElementById("randomnumber5").innerHTML = randomnumber5;
+                    var randomnumber6 = 1;
+                    randomnumber6 = Math.floor(Math.random() * 6) + 1;
+                    document.getElementById("randomnumber6").innerHTML = randomnumber6;
+                    var randomnumber7 = 1;
+                    randomnumber7 = Math.floor(Math.random() * 8) + 1;
+                    document.getElementById("randomnumber7").innerHTML = randomnumber7;
+                    var randomnumber8 = 1;
+                    randomnumber8 = Math.floor(Math.random() * 10) + 1;
+                    document.getElementById("randomnumber8").innerHTML = randomnumber8;
+                    var randomnumber9 = 1;
+                    randomnumber9 = Math.floor(Math.random() * 20) + 1;
+                    document.getElementById("randomnumber9").innerHTML = randomnumber9;
+                    var randomnumber10 = 1;
+                    randomnumber10 = Math.floor(Math.random() * 100) + 1;
+                    document.getElementById("randomnumber10").innerHTML = randomnumber10;
                 }
 
                 </script>
